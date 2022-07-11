@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class Config {
 
-    private final static String BOT_TOKEN = "";
+    private final static String BOT_TOKEN = "1869331847:AAH3ivzHkNUzOVBg7R-Pz_PeSy7jBTew3rM";
 
     @Bean
     public TelegramBot getTelegramBot() {
@@ -18,5 +18,10 @@ public class Config {
     @Bean
     public RestTemplate getRestTemplate() {
         return new RestTemplate();
+    }
+
+    @Bean
+    public RT getRT() {
+        return  new RT();
     }
 }

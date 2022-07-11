@@ -4,13 +4,14 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
 public class RT {
 
-    private Integer sex;
-    private Integer interest;
+    private String sex;
+    private String interest;
     private String city;
     private Long idTelegramUser;
     private String avatarPhotoId;

@@ -10,5 +10,5 @@ public enum Condition {
     WaitDescription,
     WaitCity,
     WaitInterest,
-    End;
+    GetWorksheet;
 }
