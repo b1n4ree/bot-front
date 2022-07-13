@@ -16,7 +16,7 @@ import java.util.Set;
 public class Bot implements UpdatesListener {
 
     private final TelegramBot telegramBot;
-    private final HashMap<Long, Condition>  conditionHashMap;
+    private final HashMap<Long, State>  conditionHashMap;
     private final Set<Long> userIdChat;
     private final CreateWorksheet createWorksheet;
 

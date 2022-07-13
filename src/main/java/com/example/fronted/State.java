@@ -1,6 +1,6 @@
 package com.example.fronted;
 
-public enum Condition {
+public enum State {
 
     Start,
     WaitAge,
