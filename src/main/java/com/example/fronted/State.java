@@ -10,5 +10,6 @@ public enum State {
     WaitDescription,
     WaitCity,
     WaitInterest,
+    WaitResult,
     GetWorksheet;
 }

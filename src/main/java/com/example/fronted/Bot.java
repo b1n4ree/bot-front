@@ -20,9 +20,6 @@ public class Bot implements UpdatesListener {
     private final Set<Long> userIdChat;
     private final CreateWorksheet createWorksheet;
 
-
-    private final static String BOT_TOKEN = "1869331847:AAH3ivzHkNUzOVBg7R-Pz_PeSy7jBTew3rM";
-
     public Bot(TelegramBot telegramBot, CreateWorksheet createWorksheet) {
 
         this.telegramBot = telegramBot;
